@@ -1,0 +1,26 @@
+{
+  "name": "moderator-on-browser",
+  "version": "0.0.0",
+  "description": "moderator for browser",
+  "main": "moderator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-gold/moderator.git"
+  },
+  "keywords": [
+    "moderator"
+  ],
+  "author": "nguyenhuynh200188@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/red-gold/moderator/issues"
+  },
+  "homepage": "https://github.com/red-gold/moderator#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.13.4",
+    "node-fetch": "^2.3.0"
+  }
+}
