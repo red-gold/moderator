@@ -21,6 +21,7 @@
   "homepage": "https://github.com/red-gold/moderator#readme",
   "dependencies": {
     "@tensorflow/tfjs": "^0.13.4",
+    "@tensorflow/tfjs-node": "^0.1.21",
     "node-fetch": "^2.3.0"
   }
 }
