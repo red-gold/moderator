@@ -1,0 +1,15 @@
+{
+    "project": "moderatordev-223307", 
+    "query":{
+        "bucket": ""
+    },
+    "db":{
+        "trainingSessionRecords": ""
+    },
+    "storage": {
+        "":{
+            "dataSet":"",
+            "table":""
+        }
+    }
+}
