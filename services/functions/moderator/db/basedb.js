@@ -3,6 +3,10 @@ class BaseDB{
         //TODO: make checking schema here
         this.dbClient = firebaseAdmin.storage();
     }
+    list(id){
+
+    }
+    
     init(){
 
     }    

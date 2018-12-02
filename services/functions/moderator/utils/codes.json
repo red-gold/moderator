@@ -1,0 +1,6 @@
+{
+    "Error": 200,
+    "KeyInvalid": 300,
+    "ValueInValid": 310,
+    "SchemaValidate": 320
+}

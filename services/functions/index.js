@@ -6,11 +6,15 @@ exports.records = functions.https.onRequest((request, response) => {
 });
 
 exports.insights = functions.https.onRequest((request, response) => {
-    response.send({'abc':'cac'});
+    const insight = await nlpIntegraton.SentimentInsight({text: 'hello, world'});
+    response.send();
 });
 
-exports.contents = functions.https.onRequest((request, response) => {
-
+exports.deploy = functions.https.onRequest((request, response) => {
+    const service = 
+    const params = 
+    const insight = await nlpIntegraton.SentimentInsight({text: 'hello, world'});
+    response.send(insight);
 });
 
 exports.trainingSessionRecordTrigger = functions.https.onRequest((request, response) => {

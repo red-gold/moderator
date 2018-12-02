@@ -1,0 +1,6 @@
+{
+    "name": "google integration",
+    "id": "pipeline.integration.googleIntegration",
+    "description": "this is insight integration",
+    "version":"draft01"
+}
