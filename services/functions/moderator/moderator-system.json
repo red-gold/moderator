@@ -1,15 +1,27 @@
 {
     "project": "moderatordev-223307", 
-    "query":{
-        "bucket": ""
-    },
     "db":{
-        "trainingSessionRecords": ""
+        "trainingSession": "/trainingSession/",
+        "modelPipeline": "/modelPipeline/",
+        "autoML": "/autoML/",
+        "models": "/models/",
+        "autoMLWatchings": "/autoMLWatching/",
+        "autoMLFeedbacks": "/autoMLFeedbacks/",
+        "deployment": "/deployment/"
     },
     "storage": {
-        "":{
-            "dataSet":"",
-            "table":""
-        }
+        "dataset":"/dataset/",
+        "normalizeData":"/normalizeData/",
+        "models":"/models/"
+    },
+    "logs":{
+        "migrating": "/logs/migrating",
+        "preprocessing": "/logs/preprocessing",
+        "training": "/logs/training"
+    },
+    "topics":{
+        "pipelineTrigger":"pipelineTrigger",
+        "AutoMLTrigger":"AutoMLTrigger",
+        "ModelTrigger":"ModelTrigger"
     }
 }

@@ -1,5 +1,5 @@
 moderatorPath = '../../functions/moderator/'
-const {validator, assertData, schemas} = require(`${moderatorPath}/schemas/index.js`);
+const {validator, assertData, schemas} = require(`${moderatorPath}/schemas.js`);
 // console.log({validator});
 // const validate = ()=>{
 //     assertData('forTestValidate', '123');

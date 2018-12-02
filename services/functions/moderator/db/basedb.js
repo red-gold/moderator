@@ -1,13 +1,17 @@
+const systemConfigure = require('../moderator-system.json');
 class BaseDB{
-    constructor(firebaseAdmin){
+    
+    constructor(firebaseAdmin, recordType){
         //TODO: make checking schema here
-        this.dbClient = firebaseAdmin.storage();
+        this.firestore = admin.firestore();
+        this.collectionType = this.systemConfigure['db'][recordType];
+        this.collection = firestore.collections(this.collectionType);
     }
-    list(id){
-
+    list(trainingSessionId){
+        var doc = this.collection.doc(trainingSessionId);
     }
     
-    init(){
+    add(trainingSessionId,){
 
     }    
 }
